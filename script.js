@@ -4,6 +4,8 @@ async function getWeather() {
     const city = document.getElementById("cityInput").value;
     const error = document.getElementById("error");
     const card = document.getElementById("weatherCard");
+    const loader = document.getElementById("loader");
+    loader.classList.remove("hidden");
 
     if (!city) return;
 

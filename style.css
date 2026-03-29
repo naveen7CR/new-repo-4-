@@ -59,3 +59,20 @@ button:hover {
     color: red;
     margin-top: 10px;
 }
+
+/* Loader */
+.loader {
+    border: 5px solid #eee;
+    border-top: 5px solid #007BFF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 15px auto;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
